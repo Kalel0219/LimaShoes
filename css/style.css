@@ -306,9 +306,9 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
 /*Galeria de imagenes*/
 /* line 263, ../Proyecto Final _/sass/style.scss */
 .titulo_galeria_fotos h2 {
-  background-color: #75ffcf;
+  background-color: #a1c298;
   text-align: center;
-  font-size: 3.125rem;
+  font-size: 2rem;
 }
 
 /* line 269, ../Proyecto Final _/sass/style.scss */
@@ -521,7 +521,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
 .titulo_hombre h2 {
   background-color: #a1c298;
   text-align: center;
-  font-size: 3.125rem;
+  font-size: 2rem;
 }
 
 /* line 459, ../Proyecto Final _/sass/style.scss */
@@ -859,7 +859,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
 .titulo_mujeres h2 {
   background-color: #a1c298;
   text-align: center;
-  font-size: 3.125rem;
+  font-size: 2rem;
 }
 
 @media (max-width: 1300px) {

@@ -261,9 +261,9 @@
   /*Galeria de imagenes*/
   
   .titulo_galeria_fotos h2 {
-    background-color: rgb(117, 255, 207);
+    background-color: $footer;
     text-align: center;
-    font-size: 3.125rem;
+    font-size: 2rem;
   }
   
   .img_galeria_fotos {
@@ -453,7 +453,7 @@
   .titulo_hombre h2 {
     background-color: $footer;
     text-align: center;
-    font-size: 3.125rem;
+    font-size: 2rem;
   }
   
   .imagenes_container_hombre {
@@ -749,7 +749,7 @@
   .titulo_mujeres h2 {
     background-color: $footer;
     text-align: center;
-    font-size: 3.125rem;
+    font-size: 2rem;
   }
   
   @media (max-width: 1300px) {
