@@ -79,6 +79,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 20px;
 }
 
 .slider {
@@ -265,10 +266,22 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
 
 /*Galeria de imagenes*/
 
-.titulo_galeria_fotos h2 {
-  background-color: $footer;
+.titulo_galeria_fotos {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+  
+  line-height: 100px;
   text-align: center;
-  font-size: 2rem;
+  vertical-align: middle;  
+  
+  h2 {
+    background-color: $footer;
+    text-align: center;
+    font-size: 3rem;
+    height: 100px;
+      
+}
 }
 
 .img_galeria_fotos {
@@ -452,11 +465,27 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   }
 }
 /*galeria fotos de Hombres*/
-.titulo_hombre h2 {
-  background-color: $footer;
+.titulo_hombre {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+  
+  line-height: 100px;
   text-align: center;
-  font-size: 2rem;
+  vertical-align: middle;  
+  
+  h2 {
+    background-color: $footer;
+    text-align: center;
+    font-size: 3rem;
+    height: 100px;
+      
 }
+}
+
+
+
+
 
 .imagenes_container_hombre {
   display: grid;
@@ -747,10 +776,22 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   }
 }
 
-.titulo_mujeres h2 {
-  background-color: $footer;
+.titulo_mujeres {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+  
+  line-height: 100px;
   text-align: center;
-  font-size: 2rem;
+  vertical-align: middle;  
+  
+  h2 {
+    background-color: $footer;
+    text-align: center;
+    font-size: 3rem;
+    height: 100px;
+      
+}
 }
 
 @media (max-width: 1300px) {
@@ -843,6 +884,21 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   }
 }
 
+@media (max-width:1400px) {
+  .section-title {
+    text-align: center;
+    padding: 25px 0;
+  
+    h2 {
+      font-size: 30px;
+      span {
+        color: $footer;
+      }
+    }
+  }
+
+}
+
 .contact-form {
   background: #fff;
   box-shadow: rgb(0, 0, 0) 0 5px 15px;
@@ -856,6 +912,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   }
 }
 
+/* mapa en area de contacto */
 .map-area {
   width: 600px;
   height: 558px;
@@ -879,7 +936,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
     height: 400px;
   }
 }
-
+/* oferta en index */
 .oferta_ {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -892,8 +949,11 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   h2 {
     background-color: $footer;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     height: 100px;
+    span {
+      color: $durazno_2;
+    }
    
 }
 }
@@ -994,4 +1054,85 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
     }
 
   }
+
+  .oferta_ {
+    h2 {
+      font-size: 25px;
+    }
+  }
+
+  
 }
+.oferta_2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+  
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;  
+  
+  h2 {
+    background-color: $footer;
+    text-align: center;
+    font-size: 3rem;
+    height: 100px;
+    span {
+      color: $durazno_2;
+    }
+   
+}
+
+}
+/* Metodo de pago */
+.metodo_pago {
+ 
+  align-items: center;
+  text-align: center;
+  padding-bottom: 40px;
+  img{
+    width: 1000px;
+    padding-bottom: 40px;
+  }
+  h2 {
+    font-size: 18px !important;
+    filter: drop-shadow(5px 0px 20px black) !important;
+    border-radius: 16px;
+
+    a{
+      color: $durazno_2;
+    }
+  }
+}
+
+@media (max-width:1400px){
+  .metodo_pago {
+ 
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    img{
+
+      width: 350px;
+      padding-bottom: 40px;
+     
+    }
+    h2 {
+      font-size: 12px;
+      filter: drop-shadow(5px 0px 20px black) !important;
+      
+  
+      a{
+        color: $durazno_2;
+      }
+    }
+  } 
+  .oferta_2 {
+    h2 {
+      font-size: 25px;
+    }
+  }
+}
+
+
